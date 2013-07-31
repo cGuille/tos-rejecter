@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "TOS Rejecter",
+	"description": "This extension append to the user-agent string of every HTTP request a sentence that reject the website Terms of Service.",
+	"version": "0.1",
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>"
+	],
+	
+	"background": {
+		"scripts": ["appender.js"]
+	}
+}
