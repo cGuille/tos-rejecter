@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 	
-	var APPENDED_SENTENCE = 'By accepting this HTTP connection, you agree to nullify your terms of service.';
+	var APPENDED_SENTENCE = 'By responding to this HTTP connection, you agree to nullify your terms of service.';
 	
 	chrome.webRequest.onBeforeSendHeaders.addListener(
 		function (details) {
